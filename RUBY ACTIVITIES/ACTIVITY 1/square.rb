@@ -15,15 +15,17 @@ def square(x)
    for i in 0..x
     if (i * i) == x
         puts true
+        return true
     end
    end
    puts false
+   return false
 end
 
-square(0)
 square(-1)
-square(27)
-square(25)
-square(16)
+square(0)
+square(3)
 square(4)
-square(5)
+square(25)
+square(26)
+
